@@ -1,7 +1,7 @@
 let squareGridLength = 16;
 let fillMode = 'black';
 let blackIntensity = 0;
-const pixelCountInLength = 700;
+const pixelCountInLength = 600;
 
 const colorModeButton = document.querySelector('.random-color-mode');
 const blackModeButton = document.querySelector('.black-color-mode');

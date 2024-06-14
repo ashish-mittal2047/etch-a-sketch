@@ -1,28 +1,47 @@
+html {
+  height: 100%;
+}
+
+.heading {
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 48px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+  width: 100%;
+}
+
+.heading>div {
+  margin: 0 20px;
+}
+
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(45deg, #EA8D8D, #A890FE);
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
   height: 100%;
 }
 
 .btn-container {
   display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
-  width: 660px;
+  justify-content: space-between;
+  padding: 30px;
+  width: 600px;
 }
 
 .btn-container button {
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   box-sizing: border-box;
   width: 150px;
-  height: 70px;
+  height: 50px;
   font-weight: 600;
-  font-size: 24px;
-  background: linear-gradient(45deg, #16222A, #3A6073);
+  font-size: 18px;
+  background: linear-gradient(to right, #fc466b, #3f5efb);
   color: whitesmoke;
 }
 
@@ -31,14 +50,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 700px;
-  margin-top: 20px;
-  border: 1px solid black;
+  width: 600px;
+  border: 1px solid white;
   flex-grow: 1;
+  background-color: white;
 }
 
 .container>div {
   display: flex;
+  background-color: white;
 }
 
 .container>div>div {
@@ -46,9 +66,10 @@ body {
 }
 
 .footer {
-  padding: 10px;
+  padding: 5px;
+  padding-top: 10px;
   height: 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
   color: white;
