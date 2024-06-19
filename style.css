@@ -21,6 +21,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background: linear-gradient(to right, #fc5c7d, #6a82fb);
   height: 100%;
@@ -51,8 +52,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 600px;
+  height: 600px;
   border: 1px solid white;
-  flex-grow: 1;
   background-color: white;
 }
 
